@@ -5,9 +5,9 @@ const os = require('os'),
 
 function startt(process) {
     if(os.platform() === 'win32')
-		_exec(`start ${process}`);
+        _exec(`start ${process}`);
     else
-		_exec(`xterm -e ${process}`);
+        _exec(`xterm -e ${process}`);
 }
 
 module.exports = startt;
