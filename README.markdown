@@ -1,5 +1,5 @@
 ## startt
-> Simple wrapper around starting a process in new window for Node.js.
+Simple wrapper around starting a process in new window for Node.js.
 
 ##### Install:
 
@@ -8,10 +8,10 @@
 ##### Usage:
 
 ```js
-    'use strict';
+'use strict';
 
-    const startt = require('startt');
-    startt('echo foo');
+const startt = require('startt');
+startt('echo foo');
 ```
 
 Uses `start %process%` command on win32 and `xterm -e %process%` on *nix.
