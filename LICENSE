@@ -1,4 +1,5 @@
-The MIT License (MIT)
+startt
+Simple wrapper around starting a process in new window for Node.js.
 
 Copyright (c) 2016 Sam Saint-Pettersen
 

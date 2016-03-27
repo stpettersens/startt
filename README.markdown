@@ -1,5 +1,5 @@
 ## startt
-Simple wrapper around starting a process in new window for Node.js.
+> :heavy_dollar_sign: Simple wrapper around starting a process in new window for Node.js.
 
 ##### Install:
 
